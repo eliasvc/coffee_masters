@@ -5,39 +5,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Masters</title>
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
     <div class="checkout">
         <header>
             <img src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png"
+                class="logo"
                 alt="coffee cup drawing" />
             <h1>Coffee Masters</h1>
         </header>
         <div class="items">
             <h2 class="section-title">ITEMS</h2>
             <article class="item-1">
-                <p class="number">1x</p>
+                <p class="quantity">1x</p>
                 <p class="name">Cappuccino</p>
                 <p class="price">$3.35</p>
                 <p class="extra">Lite foam</p>
             </article>
             <article class="item-2">
-                <p class="number">1x</p>
+                <p class="quantity">1x</p>
                 <p class="name">Cappuccino</p>
                 <p class="price">$3.85</p>
                 <p class="extra">Lite foam</p>
                 <p class="extra">Double espresso</p>
             </article>
             <article class="item-3">
-                <p class="number">1x</p>
+                <p class="quantity">1x</p>
                 <p class="name">Croissant</p>
                 <p class="price">$2.45</p>
                 <p class="extra">Butter</p>
         </div>
         <div class="order-name">
-            <input type="text" name="name"/>
+            <h2>NAME</h2>
+            <label for="order-input-name" class="order-label">Name for order</label>
+            <input id="order-input-name" type="text" />
         </div>
+        <div class="payment-info">
+            <h2>PAYMENT</h2>
+            <label for="card-number-input" class="card-number-label">Card number</label>
+            <input id="card-number-input" type="text" />
+            <label for="ccv-input" class="ccv-label"></label>
+            <input id="ccv-input" type="text" />
+        </div>
+        <div class="total-cost">
+            <p class="subtotal">Subtotal:</p>
+            <p class="subtotal-amount">$9.65</p>
+            <p class="tax">Tax:</p>
+            <p class="tax-amount">$0.82</p>
+            <p class="total">Total:</p>
+            <p class="total-amount">$10.47</p>
+        </div>
+        <button class="place-oder" type="button">Place order</button>
+    </div>
+</body>
+
+</html>
+
+    </div>
+</body>
+
+</html>
+
+        </div>
+    </div>
+</body>
+
+</html>
+
     </div>
 </body>
 

@@ -1,0 +1,42 @@
+header {
+    grid-area: grid-header;
+    display: flex; 
+    border: 1px solid black;
+    justify-content: center;
+    background-color: #43281c;
+    align-items: center;
+}
+
+header h1 {
+    color: #fbf2c0;
+    font-weight: bold;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.items {
+    border: 1px solid black;
+    grid-area: grid-items;
+}
+
+.order-name {
+    border: 1px solid black;
+    grid-area: grid-order;
+}
+
+.payment-info {
+    border: 1px solid black;
+    grid-area: grid-payment;
+}
+
+.total-cost {
+    grid-area: grid-cost;
+}
+
+.place-order {
+    grid-area: grid-place-order;
+}
